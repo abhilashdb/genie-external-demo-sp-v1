@@ -39,7 +39,7 @@ Local demo of **local login → user→SP mapping → OAuth M2M token exchange �
 ## Prereqs
 
 - Python 3.10+
-- Databricks CLI authenticated as a workspace admin (`databricks auth login --profile e2-demo`)
+- Databricks CLI authenticated as a workspace admin (`databricks auth login --profile <profile>`)
 - Two OAuth service principals already created in the workspace, with client secrets captured
 - `.env` populated (see `.env.example`)
 
